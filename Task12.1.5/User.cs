@@ -12,6 +12,13 @@ namespace Task12._1._5
         internal string Name { get; set; }
         internal bool IsPremium { get; set; } = true;
 
+        public User(string login, string name, bool isPremium)
+        {
+            Login = login;
+            Name = name;
+            IsPremium = isPremium;
+        }
+
     }
 
 }
