@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Task12._1._5
 {
-    internal interface Adwersting
+    internal interface IAdwersting
     {
+
     }
 }
