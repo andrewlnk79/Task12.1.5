@@ -9,5 +9,7 @@ namespace Task12._1._5
     internal interface IAdwersting
     {
 
+        void ShowAdws();
+        void Subscribe();
     }
 }
