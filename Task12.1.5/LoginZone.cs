@@ -13,6 +13,7 @@ namespace Task12._1._5
         public LoginZone(IAdwersting adwersting, User user)
         {
             Adwersting = adwersting;
+            this.user = user;
         }
 
         public void ShowAdws()
